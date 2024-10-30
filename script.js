@@ -45,4 +45,13 @@ setInterval(() => {
         document.querySelector('.passthrough').remove();
     }
     counter++;
-}, 20000)
+}, 2000)
+
+
+//player continuous downward animation
+setInterval(()=>{
+    playerTop += 10;
+    player.style.top = playerTop + 'px';
+}, 100)
+
+//TO do -> stop player downward animation at the top of the block and continue downward movement along passthrough
