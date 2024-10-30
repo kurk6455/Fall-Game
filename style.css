@@ -1,72 +1,60 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.container{
-    width: 400px;
-}
-
-.header{
-    border: 1px solid black;
-    text-align: center;
+  }
+  
+  .description{
     padding: 40px 0px;
-    font-weight: 900;
-    font-size: 30px;
-    font-family: monospace;
-    color: rgb(166, 64, 64);
-    background-color: rgb(77, 138, 162);
-}
-
-.playZone{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    width: 400px;
     border: 1px solid black;
-    height: 540px;
-    color: rgb(244, 64, 64);
+    background-color: rgb(153, 74, 74);
+    color: rgb(40, 54, 65);
+  }
+  
+  #playzone{
     background-color: skyblue;
-
-}
-
-/* .dead{
-    height: 30px;
-    background-color: rgb(166, 64, 64);
-    position: sticky
-}
-
-.win{
-    height: 30px;
-    background-color: rgb(90, 166, 64);
-    position: sticky;
-    top: 700px;
-} */
-
-.player{
-    height: 30px;
-    width: 30px;
-    background-color: black;
+    width: 400px;
+    height: 500px;    
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #character{
+    background-color: red;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     position: relative;
-    top: 20px;
-    left: 170px;
-}
-.obstacle{
-    /* background-color: red; */
+    top: 30%;
+    left: 200px;
+    background-color: black;
+    z-index: 1000000;
+  }
+  
+  .block{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(169, 12, 122);
     position: relative;
-    top: 510px;
-}
-.block{
-    height: 30px;
-    background-color: rgb(101, 101, 101);
-}
-
-.passthrough{
-    height: 30px;
-    width: 80px;
-    background-color: rgba(255, 255, 255, 0.755);
+    top: 100px;
+    margin-top: -20px;
+  }
+  
+  .hole{
+    width: 40px;
+    height: 20px;
+    background-color: skyblue;
     position: relative;
-    top: -30px;
-    left: 319px;
-}
+    top: 100px;
+    margin-top: -30px;
+  }
