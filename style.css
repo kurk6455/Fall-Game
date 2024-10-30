@@ -24,13 +24,13 @@ body{
 
 .playZone{
     border: 1px solid black;
-    height: 550px;
+    height: 540px;
     color: rgb(244, 64, 64);
     background-color: skyblue;
 
 }
 
-.dead{
+/* .dead{
     height: 30px;
     background-color: rgb(166, 64, 64);
     position: sticky
@@ -41,7 +41,7 @@ body{
     background-color: rgb(90, 166, 64);
     position: sticky;
     top: 700px;
-}
+} */
 
 .player{
     height: 30px;
@@ -49,23 +49,24 @@ body{
     background-color: black;
     border-radius: 50%;
     position: relative;
-    top: -39px;
+    top: 20px;
     left: 170px;
 }
 .obstacle{
-    background-color: red;
+    /* background-color: red; */
     position: relative;
-    top: 470px;
+    top: 510px;
 }
 .block{
-    height: 20px;
+    height: 30px;
     background-color: rgb(101, 101, 101);
 }
 
 .passthrough{
-    height: 20px;
+    height: 30px;
     width: 80px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.755);
     position: relative;
-    top: -20px;
+    top: -30px;
+    left: 319px;
 }
