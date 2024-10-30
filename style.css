@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+}
+
+.header{
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px 0px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(166, 64, 64);
+    background-color: rgb(77, 138, 162);
+}
+
+.playZone{
+    border: 1px solid black;
+    height: 550px;
+    color: rgb(244, 64, 64);
+    background-color: skyblue;
+
+}
+
+.dead{
+    height: 30px;
+    background-color: rgb(166, 64, 64);
+    position: sticky
+}
+
+.win{
+    height: 30px;
+    background-color: rgb(90, 166, 64);
+    position: sticky;
+    top: 700px;
+}
+
+.player{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -39px;
+    left: 170px;
+}
+.obstacle{
+    background-color: red;
+    position: relative;
+    top: 470px;
+}
+.block{
+    height: 20px;
+    background-color: rgb(101, 101, 101);
+}
+
+.passthrough{
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    position: relative;
+    top: -20px;
+}
